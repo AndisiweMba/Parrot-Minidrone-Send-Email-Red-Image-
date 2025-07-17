@@ -53,3 +53,12 @@ props.setProperty('mail.smtp.auth','true');
 props.setProperty('mail.smtp.socketFactory.class','javax.net.ssl.SSLSocketFactory');
 props.setProperty('mail.smtp.socketFactory.port','465');
 
+### 🚁 Step 2: Connect and Verify the Drone
+
+Make sure your **Parrot Mambo Minidrone** is fully charged and turned on. Then, follow these steps to connect and verify that MATLAB can communicate with the drone:
+
+1. Open MATLAB.
+2. Ensure your computer's **Bluetooth** is turned on.
+3. Connect to the drone via Bluetooth us
+4. Monitior and tune
+5. Run the model
