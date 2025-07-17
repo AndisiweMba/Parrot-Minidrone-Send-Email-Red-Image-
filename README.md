@@ -41,7 +41,6 @@ Before running the model, you need to configure MATLAB to send emails by setting
 
 Personalize the following code by replacing the placeholders with **your own email address** and **App Password** (not your regular Gmail password). Then, paste it into the **MATLAB Command Window**:
 
-```matlab
 setpref('Internet','SMTP_Server','smtp.gmail.com');
 setpref('Internet','E_mail','YourEmail@gmail.com');
 setpref('Internet','SMTP_Username','YourEmail@gmail.com');
@@ -51,7 +50,7 @@ setpref('Internet','SMTP_Password','Your2StepVerificationPassword');
 props = java.lang.System.getProperties;
 props.setProperty('mail.smtp.auth','true');
 props.setProperty('mail.smtp.socketFactory.class','javax.net.ssl.SSLSocketFactory');
-props.setProperty('mail.smtp.socketFactory.port','465');
+props.setProperty('mail.smtp.socketFactory.port','465')
 
 ### 🚁 Step 2: Connect and Verify the Drone
 
